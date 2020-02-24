@@ -1,28 +1,38 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="castle side-r-wrap">
+    <TopSide :title="title"></TopSide>
+    <TopMid></TopMid>
+    <Left></Left>
+    <Right></Right>
+    <MapHeat></MapHeat>
+    <Foot></Foot>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TopSide from '@/components/TopSide'
+import TopMid from '@/components/TopMid'
+import Left from '@/components/Left'
+import Right from '@/components/Right'
+import MapHeat from '@/components/MapHeat'
+import Foot from '@/components/Foot'
 
 export default {
-  name: 'App',
+  name: 'Castle',
+  data () {
+    return {
+      title: '公安警情大屏展示'
+    }
+  },
   components: {
-    HelloWorld
+    TopSide,
+    TopMid,
+    Left,
+    Right,
+    MapHeat,
+    Foot
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style scoped>
 </style>
