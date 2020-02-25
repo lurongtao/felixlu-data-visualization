@@ -137,11 +137,11 @@
   }
 
   .sex-legend .male {
-    background: url(../assets/images/fantasy/castle/male-legend.png) no-repeat left center;
+    background: url(../assets/images/fantasy/male-legend.png) no-repeat left center;
   }
 
   .sex-legend .female {
-    background: url(../assets/images/fantasy/castle/female-legend.png) no-repeat left center;
+    background: url(../assets/images/fantasy/female-legend.png) no-repeat left center;
   }
 
   .jizhan {
@@ -161,7 +161,7 @@
     width: 100%;
     height: 100px;
     margin-top: 10px;
-    background: url(../assets/images/fantasy/castle/top-item-bg.png) 0% 0% / 100% 100% no-repeat;
+    background: url(../assets/images/fantasy/top-item-bg.png) 0% 0% / 100% 100% no-repeat;
   }
 
   .jizhan-item-index {
@@ -193,7 +193,7 @@
     width: 360px;
     height: 24px;
     margin-right: 10px;
-    background: url(../assets/images/fantasy/castle/top-progress-bg.png) 0% 0% / 100% 100% no-repeat;
+    background: url(../assets/images/fantasy/top-progress-bg.png) 0% 0% / 100% 100% no-repeat;
   }
 
   .jizhan-outer-bar {
