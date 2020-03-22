@@ -84,6 +84,7 @@ export default class WaterBall {
       .attr('fill', 'none')
       .attr('stroke', fillOuterLine)
       .attr('stroke-width', 4)
+      
     // 绘制外圈纯色填充圆 -- 男性占比
     ballEnter.append('path').attr('class', 'maleCircle')
     ballGroup.select('.maleCircle')

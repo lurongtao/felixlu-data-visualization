@@ -84,6 +84,7 @@ export default class MultiPie {
     data.map((d) => {
       let value = d.value
       let rate = Math.max(Math.floor(value * 100 / sum), 1)
+      // console.log(rate)
       let rateData = [rate, 100 - rate]
       let dealData = rate >= 50 ? clockwisePie(rateData) : anticlockwisePie(rateData)
       dataset.push(dealData)
